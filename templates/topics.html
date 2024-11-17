@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select a Topic</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 2em;
+            margin: 20px 0;
+            color: #0056b3;
+        }
+
+        #custom-topic, #topic-options {
+            width: 100%;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h3 {
+            margin: 0;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Styling for input */
+        #customTopicInput {
+            width: 80%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Styling for buttons */
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #0056b3;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #003d80;
+        }
+
+        button:active {
+            background-color: #002a57;
+        }
+
+        /* Horizontal styling for topic buttons */
+        #topic-options {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 600px) {
+            #custom-topic, #topic-options {
+                width: 90%;
+            }
+            
+            #customTopicInput {
+                width: 100%;
+            }
+
+            button {
+                width: 100%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Select a Topic to Find Research Papers</h1>
+   
+
+    <div id="topic-options">
+        <button onclick="fetchPapersAndRedirect('healthcare')">Healthcare</button>
+        <button onclick="fetchPapersAndRedirect('education')">Education</button>
+        <button onclick="fetchPapersAndRedirect('mental health')">Mental Health</button>
+        <button onclick="fetchPapersAndRedirect('entertainment')">Entertainment</button>
+        <button onclick="fetchPapersAndRedirect('computer vision')">Computer Vision</button>
+        <button onclick="fetchPapersAndRedirect('blockchain')">Blockchain</button>
+        <button onclick="fetchPapersAndRedirect('AI')">AI</button>
+        <button onclick="fetchPapersAndRedirect('ML')">ML</button>
+        <button onclick="fetchPapersAndRedirect('DSA')">DSA</button>
+        <button onclick="fetchPapersAndRedirect('Math')">Mathematics</button>
+        <button onclick="fetchPapersAndRedirect('Physics')">Physics</button>
+        <button onclick="fetchPapersAndRedirect('Quantitative Biology')">Quantitative Biology</button>
+        <button onclick="fetchPapersAndRedirect('Quantitative Finance')">Quantitative Finance</button>
+        <button onclick="fetchPapersAndRedirect('Statistics')">Statistics</button>
+        <button onclick="fetchPapersAndRedirect('Economics')">Economics</button>
+        <button onclick="fetchPapersAndRedirect('Electrical')">Electrical</button>
+        <button onclick="fetchPapersAndRedirect('Agriculture')">Agriculture</button>
+    </div>
+    <div id="custom-topic">
+        <h3>Or Enter a Custom Topic:</h3>
+        <input type="text" id="customTopicInput" placeholder="Enter a topic">
+        <button onclick="searchCustomTopic()">Search</button>
+    </div>
+    <script>
+        async function fetchPapersAndRedirect(topic) {
+            const response = await fetch(`/fetch_papers?topic=${encodeURIComponent(topic)}`);
+            if (response.ok) {
+                window.location.href = `/results?topic=${encodeURIComponent(topic)}`;
+            } else {
+                alert("Failed to fetch papers. Please try again.");
+            }
+        }
+
+        function searchCustomTopic() {
+            const customTopic = document.getElementById("customTopicInput").value.trim();
+            if (customTopic) {
+                fetchPapersAndRedirect(customTopic);
+            } else {
+                alert("Please enter a topic.");
+            }
+        }
+    </script>
+</body>
+</html>

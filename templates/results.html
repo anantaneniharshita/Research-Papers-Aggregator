@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Papers</title>
+   
+    <style>
+        /* styles.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f7f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for search bar */
+#search-bar {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for results container */
+#results {
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+/* Individual paper styling */
+.paper {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.paper:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Title and summary styling within each paper */
+.paper p {
+    margin: 5px 0;
+}
+
+.paper strong {
+    color: #0056b3;
+}
+
+.paper a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.paper a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #search-bar, #results {
+        width: 90%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Research Papers on Selected Topic</h1>
+
+    <!-- Search Bar -->
+    <input type="text" id="search-bar" placeholder="Search within results" oninput="searchPapers()">
+    
+    <!-- Results Display -->
+    <div id="results"></div>
+
+    <script>
+        // Wait for the page to fully load
+        document.addEventListener("DOMContentLoaded", async () => {
+            // Get the selected topic from the URL query string // this isnt req it is searching again in json file for topic u choose
+            //const params = new URLSearchParams(window.location.search);
+           // let topic = params.get('topic');
+            topic=""
+            // Fetch papers for the given topic from the backend
+            const response = await fetch(`/fetch_papers_from_json?topic=${topic}`);
+            const papers = await response.json();
+
+            // Display all papers initially
+            displayResults(papers);
+
+            // Store papers globally for search functionality
+            window.papers = papers;
+        });
+
+        // Function to display results in the frontend
+        function displayResults(papers) {
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = ""; // Clear previous results
+
+            papers.forEach(paper => {
+                const paperElement = document.createElement("div");
+                paperElement.classList.add("paper");
+                paperElement.innerHTML = `
+                    <p><strong>Title:</strong> ${paper.title}</p>
+                    <p><strong>Abstract:</strong> ${paper.summary}</p>
+                    <p><strong>Link:</strong> <a href="${paper.url}" target="_blank">${paper.url}</a></p>`;
+                resultsDiv.appendChild(paperElement);
+            });
+        }
+
+        // Function to filter papers by search query
+        function searchPapers() {
+            const query = document.getElementById("search-bar").value.toLowerCase();
+            const filteredPapers = window.papers.filter(paper =>
+                paper.title.toLowerCase().includes(query) ||
+                paper.summary.toLowerCase().includes(query)
+            );
+
+            // Re-display the filtered results
+            displayResults(filteredPapers);
+        }
+    </script>
+</body>
+</html>

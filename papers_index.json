@@ -1,0 +1,212 @@
+{
+    "arXiv_2110.04503v1": {
+        "title": "Multi-Relation Aware Temporal Interaction Network Embedding",
+        "url": "http://arxiv.org/abs/2110.04503v1",
+        "summary": "Temporal interaction networks are formed in many fields, e.g., e-commerce,\nonline education, and social network service. Temporal interaction network\nembedding can effectively mine the information in temporal interaction\nnetworks, which is of great significance to the above fields. Usually, the\noccurrence of an interaction affects not only the nodes directly involved in\nthe interaction (interacting nodes), but also the neighbor nodes of interacting\nnodes. However, existing temporal interaction network embedding methods only\nuse historical interaction relations to mine neighbor nodes, ignoring other\nrelation types. In this paper, we propose a multi-relation aware temporal\ninteraction network embedding method (MRATE). Based on historical interactions,\nMRATE mines historical interaction relations, common interaction relations, and\ninteraction sequence similarity relations to obtain the neighbor based\nembeddings of interacting nodes. The hierarchical multi-relation aware\naggregation method in MRATE first employs graph attention networks (GATs) to\naggregate the interaction impacts propagated through a same relation type and\nthen combines the aggregated interaction impacts from multiple relation types\nthrough the self-attention mechanism. Experiments are conducted on three public\ntemporal interaction network datasets, and the experimental results show the\neffectiveness of MRATE.",
+        "source": "arXiv"
+    },
+    "arXiv_1805.02622v1": {
+        "title": "Provenance for Interactive Visualizations",
+        "url": "http://arxiv.org/abs/1805.02622v1",
+        "summary": "We highlight the connections between data provenance and interactive\nvisualizations. To do so, we first incrementally add interactions to a\nvisualization and show how these interactions are readily expressible in terms\nof provenance. We then describe how an interactive visualization system that\nnatively supports provenance can be easily extended with novel interactions.",
+        "source": "arXiv"
+    },
+    "arXiv_2108.11200v1": {
+        "title": "Optimizing higher-order network topology for synchronization of coupled\n  phase oscillators",
+        "url": "http://arxiv.org/abs/2108.11200v1",
+        "summary": "Networks in nature have complex interactions among agents. One significant\nphenomenon induced by interactions is synchronization of coupled agents, and\nthe interactive network topology can be tuned to optimize synchronization. The\nprevious studies showed that the optimized conventional network with pairwise\ninteractions favors a homogeneous degree distribution of nodes when the\ninteraction is undirected, and is always structurally asymmetric when the\ninteraction is directed. However, the optimal control on synchronization for\nnetworks with prevailing higher-order interactions is less explored. Here, by\nconsidering the higher-order interactions in hypergraph and the Kuramoto model\nwith 2-hyperlink interactions, we find that the network topology with optimized\nsynchronizability may have distinct properties. For the undirected interaction,\noptimized networks with 2-hyperlink interactions by simulated annealing tend to\nbecome homogeneous in the nodes' generalized degree, consistent with\n1-hyperlink (pairwise) interactions. We further define the directed hyperlink,\nand rigorously demonstrate that for the directed interaction, the structural\nsymmetry can be preserved in the optimally synchronizable network with\n2-hyperlink interactions, in contrast to the conclusion for 1-hyperlink\ninteractions. The results suggest that controlling the network topology of\nhigher-order interactions leads to synchronization phenomena beyond pairwise\ninteractions.",
+        "source": "arXiv"
+    },
+    "arXiv_0207082v1": {
+        "title": "Possible Development of the Newton Gravitational Theory of Interactions.\n  An Alternative Approach to the Gravitational Theory",
+        "url": "http://arxiv.org/abs/gr-qc/0207082v1",
+        "summary": "This work is devoted to the discussion of an idea that gravitational\ninteractions might be residual interactions of strong and electromagnetic\ninteractions. Then, absence of the carriers of the gravitational interactions\nfinds a natural explanation in the framework this idea. Besides, since masses\n(charges of the gravitational interactions) of particles are generated in\nstrong, electromagnetic (and possibly, in other) interactions and if masses of\nthe particles will be not generated in these interactions (i.e. $m \\equiv 0$),\nthen the gravitational interactions do not appear. That is also indirect\nconfirmation of the considered idea. Connections between charge of the\ngravitational and other interactions are considered.",
+        "source": "arXiv"
+    },
+    "arXiv_2106.01479v1": {
+        "title": "Two-dimensional three-body quadrupole-quadrupole interactions",
+        "url": "http://arxiv.org/abs/2106.01479v1",
+        "summary": "Similar to interactions between dipoles, or van der Waals interactions,\nquadrupole-quadrupole interactions are interactions between quadrupoles. In\nthis article, we study the quadrupole interactions between highly excited atoms\nor Rydberg atoms. In addition, unlike many other calculations, in which the\nprimary focus was on the one-dimensional two-body quadrupole-quadrupole\ninteractions, the primary aim of this article is to study the two-dimensional\nfew-body quadrupole-quadrupole interactions. Specifically, the two-dimensional\nthree-body interactions are investigated. This research has many applications,\nsuch as quadrupole-blockade for quantum computing, creating molecules based on\nquadrupole interactions.",
+        "source": "arXiv"
+    },
+    "arXiv_1803.01145v1": {
+        "title": "Designing Interactions with Furniture: Towards Multi-Sensorial\n  Interaction Design Processes for Interactive Furniture",
+        "url": "http://arxiv.org/abs/1803.01145v1",
+        "summary": "In this paper, we argue for novel user experience design methods, in the\ncontext of reimagining ergonomics of interactive furniture.",
+        "source": "arXiv"
+    },
+    "arXiv_1902.05121v1": {
+        "title": "Loop interactions and their representations in Fock space",
+        "url": "http://arxiv.org/abs/1902.05121v1",
+        "summary": "Given a weighted graph, we show how to define two types of natural\ninteractions which correspond to local interactions between two Fock spaces.\nThe first type of interaction involves loop ensembles and spanning trees. The\nsecond type of interaction involves loop holonomies and random connections.",
+        "source": "arXiv"
+    },
+    "arXiv_2411.05685v1": {
+        "title": "Beyond Pairwise Interactions: Unveiling the Role of Higher-Order\n  Interactions via Stepwise Reduction",
+        "url": "http://arxiv.org/abs/2411.05685v1",
+        "summary": "Complex systems, such as economic, social, biological, and ecological\nsystems, usually feature interactions not only between pairwise entities but\nalso among three or more entities. These multi-entity interactions are known as\nhigher-order interactions. Hypergraph, as a mathematical tool, can effectively\ncharacterize higher-order interactions, where nodes denote entities and\nhyperedges represent interactions among multiple entities. Meanwhile, all\nhigher-order interactions can also be projected into a number of lower-order\ninteractions or even some pairwise interactions. Whether it is necessary to\nconsider all higher-order interactions, and whether it is with little loss to\nreplace them by lower-order or even pairwise interactions, remain a\ncontroversial issue. If the role of higher-order interactions is insignificant,\nthe complexity of computation and the difficulty of analysis can be drastically\nreduced by projecting higher-order interactions into lower-order or pairwise\ninteractions. We use link prediction, a fundamental problem in network science,\nas the entry point. Specifically, we evaluate the impact of higher-order\ninteractions on link predictive accuracy to explore the necessity of these\nstructures. We propose a method to decompose the higher-order structures in a\nstepwise way, thereby allowing to systematically explore the impacts of\nstructures at different orders on link prediction. The results indicate that in\nsome networks, incorporating higher-order interactions significantly enhances\nthe accuracy of link prediction, while in others, the effect is insignificant.\nTherefore, we think that the role of higher-order interactions varies in\ndifferent types of networks. Overall, since the improvement in predictive\naccuracy provided by higher-order interactions is significant in some networks,\nwe believe that the study of higher-order interactions is both necessary and\nvaluable.",
+        "source": "arXiv"
+    },
+    "arXiv_2405.03273v1": {
+        "title": "Evaluation of Drivers' Interaction Ability at Social Scenarios: A\n  Process-Based Framework",
+        "url": "http://arxiv.org/abs/2405.03273v1",
+        "summary": "Assessing drivers' interaction capabilities is crucial for understanding\nhuman driving behavior and enhancing the interactive abilities of autonomous\nvehicles. In scenarios involving strong interaction, existing metrics focused\non interaction outcomes struggle to capture the evolutionary process of\ndrivers' interactive behaviors, making it challenging for autonomous vehicles\nto dynamically assess and respond to other agents during interactions. To\naddress this issue, we propose a framework for assessing drivers' interaction\ncapabilities, oriented towards the interactive process itself, which includes\nthree components: Interaction Risk Perception, Interaction Process Modeling,\nand Interaction Ability Scoring. We quantify interaction risks through motion\nstate estimation and risk field theory, followed by introducing a dynamic\naction assessment benchmark based on a game-theoretical rational agent model,\nand designing a capability scoring metric based on morphological similarity\ndistance. By calculating real-time differences between a driver's actions and\nthe assessment benchmark, the driver's interaction capabilities are scored\ndynamically. We validated our framework at unsignalized intersections as a\ntypical scenario. Validation analysis on driver behavior datasets from China\nand the USA shows that our framework effectively distinguishes and evaluates\nconservative and aggressive driving states during interactions, demonstrating\ngood adaptability and effectiveness in various regional settings.",
+        "source": "arXiv"
+    },
+    "arXiv_2409.00047v1": {
+        "title": "Inflation of Interactivity? Analyzing and Understanding Embodied\n  Interaction in Interactive Art through a New Three-dimensional Model",
+        "url": "http://arxiv.org/abs/2409.00047v1",
+        "summary": "This insight paper examines embodied interaction in interactive art, focusing\non body embodiment, bodily sensation (i.e., somaesthetic), and audience-artwork\ninteraction. The authors propose a new three-dimensional descriptive model of\ninteractive art based on literature and apply to analyze a curated corpus of 49\naward-winning artworks from the Prix Ars Electronica between 2009 and 2023. The\nanalysis reveals emergent patterns of interactive art that deepen the\nunderstanding of interactive art from an embodied perspective and prepare the\nground for future research and art practices. This paper has discovered that\nembodied interaction remains under-explored in interactive art rather than an\ninflation of interactivity. Notable research gaps persist in exploring virtual\nembodiment within sociocultural contexts using immersive technologies.\nFurthermore, it also underscores the need to revisit the sociological and\netymological roots of interaction to enhance interpersonality and relationality\nand advocates for a paradigm shift in future research and practice in\ninteractive art.",
+        "source": "arXiv"
+    },
+    "arXiv_1710.03320v2": {
+        "title": "A Common Framework for Audience Interactivity",
+        "url": "http://arxiv.org/abs/1710.03320v2",
+        "summary": "Audience interactivity is interpreted differently across domains. This\nresearch develops a framework to describe audience interactivity across a broad\nrange of experiences. We build on early work characterizing child audience\ninteractivity experiences, expanding on these findings with an extensive review\nof literature in theater, games, and theme parks, paired with expert interviews\nin those domains. The framework scaffolds interactivity as nested spheres of\naudience influence, and comprises a series of dimensions of audience\ninteractivity including a Spectrum of Audience Interactivity. This framework\naims to develop a common taxonomy for researchers and practitioners working\nwith audience interactivity experiences.",
+        "source": "arXiv"
+    },
+    "arXiv_1101.1273v2": {
+        "title": "Understanding and predicting synthetic lethal genetic interactions in\n  Saccharomyces cerevisiae using domain genetic interactions",
+        "url": "http://arxiv.org/abs/1101.1273v2",
+        "summary": "Genetic interactions have been widely used to define functional relationships\nbetween proteins and pathways. In this study, we demonstrated that yeast\nsynthetic lethal genetic interactions can be explained by the genetic\ninteractions between domains of those proteins. The domain genetic interactions\nrarely overlap with the domain physical interactions from iPfam database and\nprovide a complementary view about domain relationships. Moreover, we found\nthat domains in multidomain yeast proteins contribute to their genetic\ninteractions differently. The domain genetic interactions help more precisely\ndefine the function related to the synthetic lethal genetic interactions, and\nthen help understand how domains contribute to different functionalities of\nmultidomain proteins. Using the probabilities of domain genetic interactions,\nwe were able to predict novel yeast synthetic lethal genetic interactions.\nFurthermore, we had also identified novel compensatory pathways from the\npredicted synthetic lethal genetic interactions. Our study significantly\nimproved the understanding of yeast mulitdomain proteins, the synthetic lethal\ngenetic interactions and the functional relationships between proteins and\npathways.",
+        "source": "arXiv"
+    },
+    "arXiv_1504.03456v1": {
+        "title": "Dominant couplings in qubit networks with controlled interactions",
+        "url": "http://arxiv.org/abs/1504.03456v1",
+        "summary": "Systems evolving under the influence of competing two-body and three-body\ninteractions, are of particular interest in exploring the stability of\nequilibrium states of strongly interacting many-body system. We present a\nsolvable model based on qubit networks, which allows us to investigate the\nintricate influence of these couplings on the possible asymptotic equilibrium\nstates. We study the asymptotic evolution of finite qubit networks under two\nand three-qubit interactions. As representatives of three-qubit interactions we\nchoose controlled unitary interactions (cu-interactions) with one and two\ncontrol qubits. It is shown that networks with purely three-qubit interactions\nexhibit different asymptotic dynamics depending on whether we deal with\ninteractions controlled by one or two qubits. However, when we allow\nthree-qubit interactions next to two-qubit interactions, the asymptotics is\ndictated by two-qubit interactions only. Finally, we prove that the\nsimultaneous presence of two types of three-qubit interactions results in the\nasymptotic dynamics characteristic for two-qubit cu-interactions.",
+        "source": "arXiv"
+    },
+    "arXiv_1709.08343v1": {
+        "title": "Spatial organization and interactions of harvester ants during foraging\n  activity",
+        "url": "http://arxiv.org/abs/1709.08343v1",
+        "summary": "Local interactions, when individuals meet, can regulate collective behavior.\nIn a system without any central control, the rate of interaction may depend\nsimply on how the individuals move around. But interactions could in turn\ninfluence movement; individuals might seek out interactions, or their movement\nin response to interaction could influence further interaction rates. We\ndevelop a general framework to address these questions, using collision theory\nto establish a baseline expected rate of interaction based on proximity. We\ntest the models using data from harvester ant colonies. A colony uses feedback\nfrom interactions inside the nest to regulate foraging activity. Potential\nforagers leave the nest in response to interactions with returning foragers\nwith food. The time series of interactions and local density of ants show how\ndensity hotspots lead to interactions that are clustered in time. A correlated\nrandom walk null model describes the mixing of potential and returning\nforagers. A model from collision theory relates walking speed and spatial\nproximity with the probability of interaction. The results demonstrate that\nalthough ants do not mix homogeneously, trends in interaction patterns can be\nexplained simply by the walking speed and local density of surrounding ants.",
+        "source": "arXiv"
+    },
+    "arXiv_2204.07718v1": {
+        "title": "Interactiveness Field in Human-Object Interactions",
+        "url": "http://arxiv.org/abs/2204.07718v1",
+        "summary": "Human-Object Interaction (HOI) detection plays a core role in activity\nunderstanding. Though recent two/one-stage methods have achieved impressive\nresults, as an essential step, discovering interactive human-object pairs\nremains challenging. Both one/two-stage methods fail to effectively extract\ninteractive pairs instead of generating redundant negative pairs. In this work,\nwe introduce a previously overlooked interactiveness bimodal prior: given an\nobject in an image, after pairing it with the humans, the generated pairs are\neither mostly non-interactive, or mostly interactive, with the former more\nfrequent than the latter. Based on this interactiveness bimodal prior we\npropose the \"interactiveness field\". To make the learned field compatible with\nreal HOI image considerations, we propose new energy constraints based on the\ncardinality and difference in the inherent \"interactiveness field\" underlying\ninteractive versus non-interactive pairs. Consequently, our method can detect\nmore precise pairs and thus significantly boost HOI detection performance,\nwhich is validated on widely-used benchmarks where we achieve decent\nimprovements over state-of-the-arts. Our code is available at\nhttps://github.com/Foruck/Interactiveness-Field.",
+        "source": "arXiv"
+    },
+    "arXiv_2305.18357v1": {
+        "title": "DeepSI: Interactive Deep Learning for Semantic Interaction",
+        "url": "http://arxiv.org/abs/2305.18357v1",
+        "summary": "In this paper, we design novel interactive deep learning methods to improve\nsemantic interactions in visual analytics applications. The ability of semantic\ninteraction to infer analysts' precise intents during sensemaking is dependent\non the quality of the underlying data representation. We propose the\n$\\text{DeepSI}_{\\text{finetune}}$ framework that integrates deep learning into\nthe human-in-the-loop interactive sensemaking pipeline, with two important\nproperties. First, deep learning extracts meaningful representations from raw\ndata, which improves semantic interaction inference. Second, semantic\ninteractions are exploited to fine-tune the deep learning representations,\nwhich then further improves semantic interaction inference. This feedback loop\nbetween human interaction and deep learning enables efficient learning of user-\nand task-specific representations. To evaluate the advantage of embedding the\ndeep learning within the semantic interaction loop, we compare\n$\\text{DeepSI}_{\\text{finetune}}$ against a state-of-the-art but more basic use\nof deep learning as only a feature extractor pre-processed outside of the\ninteractive loop. Results of two complementary studies, a human-centered\nqualitative case study and an algorithm-centered simulation-based quantitative\nexperiment, show that $\\text{DeepSI}_{\\text{finetune}}$ more accurately\ncaptures users' complex mental models with fewer interactions.",
+        "source": "arXiv"
+    },
+    "arXiv_2101.10292v3": {
+        "title": "Transferable Interactiveness Knowledge for Human-Object Interaction\n  Detection",
+        "url": "http://arxiv.org/abs/2101.10292v3",
+        "summary": "Human-Object Interaction (HOI) detection is an important problem to\nunderstand how humans interact with objects. In this paper, we explore\ninteractiveness knowledge which indicates whether a human and an object\ninteract with each other or not. We found that interactiveness knowledge can be\nlearned across HOI datasets and bridge the gap between diverse HOI category\nsettings. Our core idea is to exploit an interactiveness network to learn the\ngeneral interactiveness knowledge from multiple HOI datasets and perform\nNon-Interaction Suppression (NIS) before HOI classification in inference. On\naccount of the generalization ability of interactiveness, interactiveness\nnetwork is a transferable knowledge learner and can be cooperated with any HOI\ndetection models to achieve desirable results. We utilize the human instance\nand body part features together to learn the interactiveness in hierarchical\nparadigm, i.e., instance-level and body part-level interactivenesses.\nThereafter, a consistency task is proposed to guide the learning and extract\ndeeper interactive visual clues. We extensively evaluate the proposed method on\nHICO-DET, V-COCO, and a newly constructed PaStaNet-HOI dataset. With the\nlearned interactiveness, our method outperforms state-of-the-art HOI detection\nmethods, verifying its efficacy and flexibility. Code is available at\nhttps://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network.",
+        "source": "arXiv"
+    },
+    "arXiv_0211155v1": {
+        "title": "Unification of Electromagnetic Interactions and Gravitational\n  Interactions",
+        "url": "http://arxiv.org/abs/hep-th/0211155v1",
+        "summary": "Unified theory of gravitational interactions and electromagnetic interactions\nis discussed in this paper. Based on gauge principle, electromagnetic\ninteractions and gravitational interactions are formulated in the same manner\nand are unified in a semi-direct product group of U(1) Abel gauge group and\ngravitational gauge group.",
+        "source": "arXiv"
+    },
+    "arXiv_2404.07360v1": {
+        "title": "Enhancing Accessibility in Soft Robotics: Exploring Magnet-Embedded\n  Paper-Based Interactions",
+        "url": "http://arxiv.org/abs/2404.07360v1",
+        "summary": "This paper explores the implementation of embedded magnets to enhance\npaper-based interactions. The integration of magnets in paper-based\ninteractions simplifies the fabrication process, making it more accessible for\nbuilding soft robotics systems. We discuss various interaction patterns\nachievable through this approach and highlight their potential applications.",
+        "source": "arXiv"
+    },
+    "arXiv_0910.5807v1": {
+        "title": "Soliton interaction in a fiber ring laser",
+        "url": "http://arxiv.org/abs/0910.5807v1",
+        "summary": "We have experimentally investigated the soliton interaction in a passively\nmode-locked fiber ring laser and revealed the existence of three types of\nstrong soliton interaction: a global type of soliton interaction caused by the\nexistence of unstable CW components; a local type of soliton interaction\nmediated through the radiative dispersive waves; and the direct soliton\ninteraction. We found that the appearance of the various soliton operation\nmodes observed in the passively mode locked fiber soliton lasers are the direct\nconsequences of these three types of soliton interaction. The soliton\ninteraction in the laser is further numerically simulated based on a pulse\ntracing technique. The numerical simulations confirmed the existence of the\ndispersive wave mediated soliton interaction and the direct soliton\ninteraction. Furthermore, it was shown that the resonant dispersive waves\nmediated soliton interaction in the laser always has the consequence of causing\nrandom irregular relative soliton movement, and the experimentally observed\nstates of bound solitons are caused by the direct soliton interaction. In\nparticular, as the solitons generated in the laser could have a profile with\nlong tails, the direct soliton interaction could extend to a soliton separation\nthat is larger than 5 times of the soliton pulse width.",
+        "source": "arXiv"
+    },
+    "arXiv_1203.4905v1": {
+        "title": "Investigate the interaction between dark matter and dark energy",
+        "url": "http://arxiv.org/abs/1203.4905v1",
+        "summary": "In this paper we investigate the interaction between dark matter and dark\nenergy by considering two different interacting scenarios, i.e. the cases of\nconstant interaction function and variable interaction function. By fitting the\ncurrent observational data to constrain the interacting models, it is found\nthat the interacting strength is non-vanishing, but weak for the case of\nconstant interaction function, and the interaction is not obvious for the case\nof variable interaction function. In addition, for seeing the influence from\ninteraction we also investigate the evolutions of interaction function,\neffective state parameter for dark energy and energy density of dark matter. At\nlast some geometrical quantities in the interacting scenarios are discussed.",
+        "source": "arXiv"
+    },
+    "arXiv_1504.07844v2": {
+        "title": "Mapping Tasks to Interactions for Graph Exploration and Graph Editing on\n  Interactive Surfaces",
+        "url": "http://arxiv.org/abs/1504.07844v2",
+        "summary": "Graph exploration and editing are still mostly considered independently and\nsystems to work with are not designed for todays interactive surfaces like\nsmartphones, tablets or tabletops. When developing a system for those modern\ndevices that supports both graph exploration and graph editing, it is necessary\nto 1) identify what basic tasks need to be supported, 2) what interactions can\nbe used, and 3) how to map these tasks and interactions. This technical report\nprovides a list of basic interaction tasks for graph exploration and editing as\na result of an extensive system review. Moreover, different interaction\nmodalities of interactive surfaces are reviewed according to their interaction\nvocabulary and further degrees of freedom that can be used to make interactions\ndistinguishable are discussed. Beyond the scope of graph exploration and\nediting, we provide an approach for finding and evaluating a mapping from tasks\nto interactions, that is generally applicable. Thus, this work acts as a\nguideline for developing a system for graph exploration and editing that is\nspecifically designed for interactive surfaces.",
+        "source": "arXiv"
+    },
+    "arXiv_1511.08430v2": {
+        "title": "Strongly interacting one-dimensional quantum gas mixtures with weak\n  p-wave interactions",
+        "url": "http://arxiv.org/abs/1511.08430v2",
+        "summary": "We study one-dimensional strongly interacting quantum gas mixtures, including\nboth the Bose-Fermi and spin-1/2 Fermi-Fermi mixtures, with weak p-wave\ninteractions between intra-component fermions, and demonstrate that the weak\np-wave interaction can not be omitted in the strongly interacting regime where\nthe strength of p-wave interactions is comparable with the inverse of the\nstrength of strongly repulsive s-wave interactions. While the total density\ndistribution is not sensitive to the weak p-wave interaction, we find that the\np-wave interaction plays an important role in determining the species-dependent\n(or spin-dependent) density distributions and produces significant physical\neffects on the low-energy spin dynamics. We also derive effective spin-exchange\nmodels for strongly interacting quantum gas mixtures with weak p-wave\ninteractions, which indicate that a quantum phase transition from\nanti-ferromagnetic state to ferromagnetic state can be induced by tuning the\nrelative strengths of intra-component and inter-component interactions.",
+        "source": "arXiv"
+    },
+    "arXiv_1505.04488v1": {
+        "title": "Exploring the Self-enhanced Mechanism of Interactive Advertising\n  Phenomenon---Based on the Research of Three Cases",
+        "url": "http://arxiv.org/abs/1505.04488v1",
+        "summary": "Under the background of the new media era with the rapid development of\ninteractive advertising, this paper used case study method based on the summary\nof the research of the communication effect of interactive advertising from\nboth domestic and foreign academia. This paper divided interactive advertising\ninto three types to examine ---- interactive ads on official website,\ninteractive ads based on SNS and interactive ads based on mobile media.\nFurthermore, this paper induced and summarized a self-enhanced dissemination\nmechanism of the interactive advertising, including three parts which are micro\nlevel, meso level and macro level mechanism, micro level embodies core\ninteraction, inner interaction and outer interaction which reveal the whole\nprocess of interact with contents, with people and with computer, and the\ncommunication approach and spread speed shown in meso level which is\nself-fission-type spread, finally in macro level the communication effect of IA\nachieved the spiral increasing. In a word, this article enriches research\nprocedure of the interactive advertising communication effects.",
+        "source": "arXiv"
+    },
+    "arXiv_1811.08264v4": {
+        "title": "Transferable Interactiveness Knowledge for Human-Object Interaction\n  Detection",
+        "url": "http://arxiv.org/abs/1811.08264v4",
+        "summary": "Human-Object Interaction (HOI) Detection is an important problem to\nunderstand how humans interact with objects. In this paper, we explore\nInteractiveness Knowledge which indicates whether human and object interact\nwith each other or not. We found that interactiveness knowledge can be learned\nacross HOI datasets, regardless of HOI category settings. Our core idea is to\nexploit an Interactiveness Network to learn the general interactiveness\nknowledge from multiple HOI datasets and perform Non-Interaction Suppression\nbefore HOI classification in inference. On account of the generalization of\ninteractiveness, interactiveness network is a transferable knowledge learner\nand can be cooperated with any HOI detection models to achieve desirable\nresults. We extensively evaluate the proposed method on HICO-DET and V-COCO\ndatasets. Our framework outperforms state-of-the-art HOI detection results by a\ngreat margin, verifying its efficacy and flexibility. Code is available at\nhttps://github.com/DirtyHarryLYL/Transferable-Interactiveness-Network.",
+        "source": "arXiv"
+    },
+    "PubMed_39537724": {
+        "title": "PLC based laser scanning system for conveyor belt surface monitoring.",
+        "url": "https://doi.org/10.1038/s41598-024-78985-0",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39517827": {
+        "title": "Enhancing Sensing Performance of Capacitive Sensors Using Kirigami Structures.",
+        "url": "https://doi.org/10.3390/s24216930",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39513774": {
+        "title": "Sodium Alginate/MXene-Based Flexible Humidity Sensors with High-Humidity Durability and Application Potentials in Breath Monitoring and Non-Contact Human-Machine Interfaces.",
+        "url": "https://doi.org/10.3390/nano14211694",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39511152": {
+        "title": "Deep learning-assisted object recognition with hybrid triboelectric-capacitive tactile sensor.",
+        "url": "https://doi.org/10.1038/s41378-024-00813-2",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39527728": {
+        "title": "Bioinspired Tilted Magnetized Flakes as a Self-Powered and Antislip Smart Outsole for Healthcare Monitoring and Human-Machine Interaction.",
+        "url": "https://doi.org/10.1021/acsami.4c13206",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39505863": {
+        "title": "Constructing organoid-brain-computer interfaces for neurofunctional repair after brain injury.",
+        "url": "https://doi.org/10.1038/s41467-024-53858-2",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39502464": {
+        "title": "Cybernic robot hand-arm that realizes cooperative work as a new hand-arm for people with a single upper-limb dysfunction.",
+        "url": "https://doi.org/10.3389/frobt.2024.1455582",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39500176": {
+        "title": "Pedestrians' Interaction with eHMI-equipped Autonomous Vehicles: A Bibliometric Analysis and Systematic Review.",
+        "url": "https://doi.org/10.1016/j.aap.2024.107826",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39499680": {
+        "title": "\"I'm in the Bluesky Tonight\": Insights from a year worth of social data.",
+        "url": "https://doi.org/10.1371/journal.pone.0310330",
+        "summary": "not found",
+        "source": "PubMed"
+    },
+    "PubMed_39497522": {
+        "title": "WiFi-Powered Sensor Integrated into a Smart Glove with a Fully Fabric Antenna for the Human-Machine Interface.",
+        "url": "https://doi.org/10.1021/acsami.4c12371",
+        "summary": "not found",
+        "source": "PubMed"
+    }
+}
